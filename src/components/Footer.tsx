@@ -11,10 +11,23 @@ const Footer = () => {
             className="h-8 w-auto opacity-90"
           />
           
-          <div className="space-y-2 text-muted-foreground text-sm">
+          <div className="space-y-4 text-muted-foreground text-sm">
             <p className="font-semibold text-foreground">Coyot's Motos — Autopeças e acessórios para motos</p>
-            <p>📍 Vilhena - RO</p>
-            <p>📲 Atendimento via WhatsApp</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div>
+                <p className="text-primary font-medium">Atacado</p>
+                <p>Av. JÔ Sato, Nº 721 - Jardim Eldorado</p>
+                <p>Vilhena - RO, 76980-611</p>
+              </div>
+              <div>
+                <p className="text-primary font-medium">Centro</p>
+                <p>Av. Mal. Rondon, 4068 - Centro</p>
+                <p>Vilhena - RO, 76980-000</p>
+              </div>
+            </div>
+            
+            <p>📲 (69) 8449-8446 — Atendimento via WhatsApp</p>
           </div>
 
           <p className="text-xs text-muted-foreground max-w-md">
