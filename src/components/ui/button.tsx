@@ -17,6 +17,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         whatsapp: "whatsapp-gradient text-whatsapp-foreground glow-whatsapp hover:scale-105 active:scale-95",
         hero: "bg-primary text-primary-foreground glow-orange hover:scale-105 active:scale-95",
+        mercadolivre: "bg-[#FFE600] text-[#333333] hover:bg-[#FFE600]/90 hover:scale-105 active:scale-95 shadow-[0_0_20px_hsl(50_100%_50%/0.3)]",
+        instagram: "bg-gradient-to-r from-[#833AB4] via-[#E1306C] to-[#F77737] text-white hover:scale-105 active:scale-95 shadow-[0_0_20px_hsl(330_80%_50%/0.3)]",
       },
       size: {
         default: "h-10 px-4 py-2 text-sm",
