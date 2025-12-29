@@ -1,3 +1,5 @@
+import { trackWhatsAppConversion } from './tracking';
+
 // WhatsApp configuration
 export const WHATSAPP_NUMBER = "5569844948446";
 export const WHATSAPP_MESSAGE = "Olá! Quero orçar uma peça para minha moto.";
@@ -13,6 +15,6 @@ export const trackWhatsAppClick = () => {
     });
   }
   
-  // Google Ads conversion (placeholder)
-  // Replace with actual conversion tracking code
+  // Google Ads conversion
+  trackWhatsAppConversion();
 };
