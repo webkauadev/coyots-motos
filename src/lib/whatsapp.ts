@@ -1,7 +1,7 @@
 import { trackWhatsAppConversion } from './tracking';
 
 // WhatsApp configuration
-export const WHATSAPP_NUMBER = "5569844948446";
+export const WHATSAPP_NUMBER = "556933225975";
 export const WHATSAPP_MESSAGE = "Olá! Quero orçar uma peça para minha moto.";
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
