@@ -4,7 +4,7 @@ import logoWhite from "@/assets/logo-coyots-white.png";
 
 const links = [
   {
-    href: "https://wa.me/5569984224708",
+    href: "https://wa.me/556933225975",
     label: "WhatsApp",
     icon: MessageCircle,
     variant: "whatsapp" as const,
@@ -18,7 +18,7 @@ const links = [
     linkType: "whatsapp_atacado" as const,
   },
   {
-    href: "https://wa.me/5569993687770",
+    href: "https://wa.me/556933225975",
     label: "Coyot's Oficina",
     icon: Wrench,
     variant: "whatsapp" as const,
