@@ -4,13 +4,6 @@ import logoWhite from "@/assets/logo-coyots-white.png";
 
 const links = [
   {
-    href: "https://wa.me/5569984224708",
-    label: "WhatsApp",
-    icon: MessageCircle,
-    variant: "whatsapp" as const,
-    linkType: "whatsapp" as const,
-  },
-  {
     href: "https://wa.me/556933225975",
     label: "Coyot's Motos Atacado",
     icon: MessageCircle,
