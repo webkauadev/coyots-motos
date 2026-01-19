@@ -1,9 +1,7 @@
 import { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { trackLinkClick } from "@/lib/tracking";
+import { trackLinkClick, type LinkType } from "@/lib/tracking";
 import { cn } from "@/lib/utils";
-
-type LinkType = 'whatsapp' | 'whatsapp_atacado' | 'whatsapp_oficina' | 'mercadolivre' | 'instagram' | 'location';
 
 interface LinkButtonProps {
   href: string;
