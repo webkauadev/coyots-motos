@@ -12,7 +12,7 @@ const GOOGLE_ADS_CONVERSION_ID = 'AW-17812104305';
 const WHATSAPP_CONVERSION_LABEL = 'whatsapp_click'; // Replace with actual label from Google Ads
 const FORM_CONVERSION_LABEL = 'form_submit'; // Replace with actual label from Google Ads
 
-type LinkType = 'whatsapp' | 'whatsapp_atacado' | 'whatsapp_oficina' | 'mercadolivre' | 'instagram' | 'location';
+export type LinkType = 'whatsapp' | 'whatsapp_atacado' | 'whatsapp_oficina' | 'whatsapp_centro' | 'whatsapp_grupo' | 'mercadolivre' | 'instagram' | 'location' | 'phone';
 
 interface TrackLinkClickParams {
   linkType: LinkType;
@@ -84,6 +84,10 @@ export const trackLinkClick = ({ linkType, linkLabel, linkUrl }: TrackLinkClickP
   } else if (linkType === 'location') {
     window.dataLayer.push({
       event: 'location_click',
+    });
+  } else if (linkType === 'phone') {
+    window.dataLayer.push({
+      event: 'phone_click',
     });
   }
 

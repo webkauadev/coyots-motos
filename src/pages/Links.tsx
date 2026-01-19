@@ -1,21 +1,42 @@
-import { MessageCircle, Wrench, ShoppingBag, MapPin, Instagram } from "lucide-react";
+import { MessageCircle, Wrench, ShoppingBag, MapPin, Phone, Users } from "lucide-react";
 import LinkButton from "@/components/LinkButton";
 import logoWhite from "@/assets/logo-coyots-white.png";
 
 const links = [
   {
-    href: "https://wa.me/556933225975",
+    href: "tel:+556933225975",
+    label: "Coyot's Motos Atacado - Fixo",
+    icon: Phone,
+    variant: "outline" as const,
+    linkType: "phone" as const,
+  },
+  {
+    href: "https://wa.me/5569984498446",
     label: "Coyot's Motos Atacado",
     icon: MessageCircle,
     variant: "whatsapp" as const,
     linkType: "whatsapp_atacado" as const,
   },
   {
+    href: "https://wa.me/5569984224908",
+    label: "Coyot's Motos Centro",
+    icon: MessageCircle,
+    variant: "whatsapp" as const,
+    linkType: "whatsapp_centro" as const,
+  },
+  {
     href: "https://wa.me/5569993687770",
-    label: "Coyot's Oficina",
+    label: "Coyot's Motos Oficina",
     icon: Wrench,
     variant: "whatsapp" as const,
     linkType: "whatsapp_oficina" as const,
+  },
+  {
+    href: "https://chat.whatsapp.com/ETLTmP6C3YV4lwT0unV9mt",
+    label: "Grupo VIP",
+    icon: Users,
+    variant: "whatsapp" as const,
+    linkType: "whatsapp_grupo" as const,
   },
   {
     href: "https://www.mercadolivre.com.br/pagina/coyotsmotosatacado",
@@ -30,13 +51,6 @@ const links = [
     icon: MapPin,
     variant: "outline" as const,
     linkType: "location" as const,
-  },
-  {
-    href: "https://www.instagram.com/coyotsmotos/",
-    label: "Instagram",
-    icon: Instagram,
-    variant: "instagram" as const,
-    linkType: "instagram" as const,
   },
 ];
 
@@ -61,7 +75,7 @@ const Links = () => {
             />
             <div>
               <h1 className="text-xl font-heading text-foreground">
-                Autopeças para Motos
+                Loja de Motopeças
               </h1>
               <p className="text-muted-foreground text-sm mt-1">
                 Vilhena - RO
